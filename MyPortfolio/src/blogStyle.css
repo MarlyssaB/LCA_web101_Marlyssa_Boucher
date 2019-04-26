@@ -1,0 +1,32 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(./myWebBackground.jpg);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    text-align: right;
+    font-size: 35px;
+    color: rebeccapurple;
+  }
+
+  main {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    text-align: center;
+  }
+  
+  section{
+      display: block;
+      border:1px solid slategray;
+      background: lightgrey;
+      text-align: center;
+  }
