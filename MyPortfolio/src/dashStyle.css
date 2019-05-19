@@ -101,3 +101,47 @@ h3{
 li{
     font-size: 130%;
 }
+
+@media screen and (max-width:450px){
+    main{
+    margin-top: 5%;
+    }
+    .calculator{
+      margin-left: 0;
+        margin-right: 0;
+        height: 140%;
+        width: 100%;
+    }
+    .newToDo{
+        font-size: 60%;
+    }
+    .calculatorDisplay{
+    height: 12%;
+    }
+    h1{ 
+        font-size: 200%;
+        margin: 1%;
+    }
+    #clock{
+        font-size: 75%;
+        margin-top: 10%;
+    }
+    h2{
+        font-size: 105%;
+    }
+    h3{
+        font-size: 95%;
+        margin: 1%;
+       }
+        
+    li{
+        font-size: 85%;
+        }
+    }
+    
+    @media screen and (max-width: 1050px){
+        .calculator{
+            width: 95%;
+        }
+
+    }
