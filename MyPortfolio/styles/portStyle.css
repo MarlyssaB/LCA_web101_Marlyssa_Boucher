@@ -32,10 +32,19 @@ h3{
 .main {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     background-color: rgb(175,175,175);
     outline: solid 2px black;
     padding: 1%;
     margin: 1.5%;
+}
+
+iframe{
+    width: 400px;
+    height: 200px;
+}
+video{
+    margin: 3%;
 }
 
 .example{
