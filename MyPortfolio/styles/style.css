@@ -1,6 +1,6 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-image: url(./myWebBackground.jpg);
+  background-image: url(../images/myWebBackground.jpg);
   background-repeat: repeat;
   background-size: 100% 100%;
   height: 100vh;
@@ -37,6 +37,7 @@ nav > a {
   padding: 20px; 
   text-align: center;
   border: 2px solid white;
+
 }
 
 .has-border {
@@ -46,6 +47,7 @@ nav > a {
   background-color: hsl(270, 54%, 57%);
   padding: 20px; 
   font-style: oblique;
+  animation-name: bounce;
 }
 .has-border:nth-of-type(odd){
   background-color: lightgrey;
