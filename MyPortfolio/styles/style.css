@@ -74,7 +74,24 @@ h1 {
   margin: 3% auto;
   border-bottom: 2px solid #9156cc;;
 }
+.disappear {
+  opacity: 0;
+  animation: opacityOn normal forwards;
+  animation-delay: 1s;
+  animation-duration: 15s;
+}
 
+@keyframes opacityOn {
+  0% {
+      opacity: 0;
+  }
+  30%{
+    opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
 h2 {
   color:  rgb(73, 71, 73);
   grid-column: 2/3;
