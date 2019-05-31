@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .square {
+     height: 50px;
+     width: 50px;
+     border: 2px solid black;
+     margin: 7px;
+     transition: .5s;
+    
+ }
+ .red {
+     background-color: red;
+ }
+ .orange {
+    background-color: orange;
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.purple {
+    background-color: purple;
+}
+.pink {
+    background-color: hotpink;
+}
+.black {
+    background-color: black;
+}
+.white {
+    background-color: white;
+}
+.aqua {
+    background-color: aqua;
+}
+.lime {
+    background-color: lime;
+}
+.magenta {
+    background-color: magenta;
+}
+
+#squareContainer:hover .square:nth-of-type(odd){
+    height: 100px;
+    width: 100px;
+    right: -100%;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    -webkit-transform: translate(300px) rotate(360deg);
+    -moz-transform: translate(300px) rotate(360deg);
+    -o-transform: translate(300px) rotate(360deg);
+    -ms-transform: translate(300px) rotate(360deg);
+    transform: translate(300px) rotate(360deg);
+}
+
+#squareContainer:hover .square:nth-of-type(even){
+    height: 25px;
+    width: 25px;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    -webkit-transform: translate(-300px) rotate(-360deg);
+    -moz-transform: translate(-300px) rotate(-360deg);
+    -o-transform: translate(-300px) rotate(-360deg);
+    -ms-transform: translate(-300px) rotate(-360deg);
+    transform: translate(-300px) rotate(-360deg);
+}
+    
+}
