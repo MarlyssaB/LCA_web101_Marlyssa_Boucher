@@ -1,0 +1,107 @@
+body {
+    color:  #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: black;
+
+  }
+  
+ .masthead-name, .content-footer {
+    text-align: center;
+  }
+  
+  .masthead {
+    background-color: #026873;
+    background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+background-size: 13px, 29px, 37px, 53px;
+    background-repeat: repeat;
+    border-top: solid 5px black;
+    padding: 6em 0;
+    height: 90%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .info-holder{
+    background-color: whitesmoke;
+    border: 2px solid black;
+  }
+  
+  .masthead-name {
+    text-align: center;
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 7em;
+    letter-spacing: -0.02em;
+    color: whitesmoke;
+    text-shadow: 4px 4px 3px #000;
+  }
+  
+  .email, .address, .telephone {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+  }
+  sup {
+    vertical-align: super;
+    font-size: 10px;
+}
+  .email > p, .address > p, .content-footer > p {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+  }
+  
+  .telephone > dl > dt {
+      
+      font-family: "Gentium Book Basic", Georgia, serif;
+      font-size: 1.4em;
+      font-weight: bold;
+      margin: 2em 0 1em 0;
+      color: teal;
+  }
+  
+  .content-footer {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+    margin: 5% 0%;
+  }
+  .social{
+      background-color: black;
+      margin: 1%;
+      padding: 1% 5%;
+      font-weight: bolder;
+      color: white;
+      width: fit-content;
+  }
+  .social > li {
+      display: inline-block;
+      margin-right: 2em;
+      font-size: 1em;
+      background-color:black;
+      color: white;
+  }
+a{
+    color: white;
+}
+  
+  @media only screen and (max-width: 450px) {
+      .masthead {
+        padding: 3em 0;
+      }
+      .masthead-name {
+        font-size: 3em;
+      }
+      .content-footer {
+        padding: 1em 0;
+        font-size: 1em;
+      }
+      .content-footer .social{
+        display: inline-table;
+      }
+  }
