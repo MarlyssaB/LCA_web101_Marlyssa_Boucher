@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+header{
+    background-color: rgb(43, 205, 192);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4em;
+    height: 190%;
+    width: 110%;
+    overflow: hidden;
+    color: whitesmoke;
+    font-family: 'Merriweather', serif;
+    font-size: 180%;
+    padding-left: .25em;
+    text-align: center;
+    justify-content: center;
+    font-size: 215%;
+    font-weight: 700;
+
+}
+main{
+    display: flex;
+    align-content: center;
+    background-color: black;
+    color: whitesmoke;
+}
+   
+.articles{
+    width: 22%;
+    margin: 5% 5%;
+    color: whitesmoke;
+}
+a{
+    color: whitesmoke;
+    transition: .5s;
+}
+a:hover{
+    
+    color: teal;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
+    text-align: center;
+    font-weight: 300;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    text-align: center;
+}

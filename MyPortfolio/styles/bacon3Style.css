@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+header{
+    background:
+linear-gradient(63deg, teal 23%, transparent 23%) 7px 0,
+linear-gradient(63deg, transparent 74%, teal 78%),
+linear-gradient(63deg, transparent 34%, teal 38%, teal 58%, transparent 62%),
+rgb(0, 94, 94);
+background-size: 16px 48px;
+    padding: 3%;
+}
+h1{
+    background-color: teal;
+    width: 110%;
+    color: rgb(0, 94, 94);
+    font-family: 'Merriweather', serif;
+    font-size: 300%;
+    text-align: center;
+    font-weight: 900;
+    margin-left: -5%;
+}
+main{
+    background-color: teal;
+    font-size: 150%;
+    color: rgb(0, 73, 73);
+    padding: 5%;
+}

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow-y: visible;
+}
+header{
+    background-color: rgb(43, 205, 192);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2em 0;
+    height: 190%;
+    width: 110%;
+    overflow: hidden;
+    color: whitesmoke;
+    font-family: 'Merriweather', serif;
+    font-size: 180%;
+    text-align: center;
+    justify-content: center;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: black;
+    margin: 0;
+    height: 100%;
+    color: white;
+    padding: 5%;
+   padding-top: 1%;
+}
+.paragraph{
+   margin: 10%;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
+    text-align: center;
+    font-weight: 300;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+iframe{
+    margin: 5% 30%;
+}

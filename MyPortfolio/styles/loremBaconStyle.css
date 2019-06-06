@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+header{
+    background-color: rgb(43, 205, 192);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4em;
+    height: 190%;
+    width: 110%;
+    overflow: hidden;
+    color: whitesmoke;
+    font-family: 'Merriweather', serif;
+    font-size: 180%;
+    padding-left: 0em;
+    text-align: center;
+    justify-content: center;
+    animation-name: bounce;
+
+}
+main{
+    display: flex;
+    align-content: center;
+    background-color: black;
+    margin: -1%;
+   
+}
+.titles{
+    width: 20%;
+    margin: 5% 10%;
+    color: whitesmoke;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
+    text-align: center;
+    font-weight: 300;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+.a {
+    border-top: 30px solid rgb(51, 168, 222)
+}
+.b {
+    border-top: 30px solid rgb(244, 103, 49)
+}
+.c {
+    border-top: 30px solid rgb(43, 205, 192)
+}
