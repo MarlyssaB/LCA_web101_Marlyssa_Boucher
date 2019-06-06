@@ -1,22 +1,45 @@
 *{
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 header{
     background-color: rgb(43, 205, 192);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 4em;
+    padding: 4em 2em;
     height: 190%;
     width: 110%;
     overflow: hidden;
     color: whitesmoke;
     font-family: 'Merriweather', serif;
-    font-size: 180%;
+    font-size: 190%;
     padding-left: 0em;
     text-align: center;
     justify-content: center;
     animation-name: bounce;
+
+}
+#icons{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    padding-left: 35%;
+}
+.fa-facebook-square, .fa-instagram{
+    font-size: 1.5em;
+    color: whitesmoke;
+    margin: 1%;
+    padding: 1%;
+    margin-top: -1%;
+}
+a{
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 1%;
+}
+h2{
+    margin-top: 0;
+    font-size: 1em;
 
 }
 main{
@@ -52,3 +75,34 @@ h3{
 .c {
     border-top: 30px solid rgb(43, 205, 192)
 }
+
+@media (max-width: 680px) { 
+    header{
+        background-color: rgb(51, 168, 222);
+        padding: 1em;
+    }
+   
+    main{
+        background-color: white;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        margin: -1%;
+       
+    }
+    #icons{
+        padding-left: 0;
+    }
+    .fa-facebook-square, .fa-instagram{
+        margin: .7%;
+        padding: .7%;
+        margin-top: -1%;
+    }
+    .titles{
+        width: 50%;
+        margin: 5% 25%;
+        color: black;
+    }
+
+
+ }
