@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+header{
+    background: #36c;
+background:
+linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+#36c;
+background-size: 15px 30px;
+    padding: 3%;
+}
+h1{
+    background-color: #36c;
+    width: 110%;
+    color: whitesmoke;
+    font-family: 'Merriweather', serif;
+    font-size: 300%;
+    text-align: center;
+    font-weight: 900;
+    margin-left: -5%;
+}
+main{
+    background-color: rgba(214,226,247);
+    font-size: 150%;
+    color: darkblue;
+    padding: 5%;
+}

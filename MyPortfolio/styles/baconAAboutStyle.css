@@ -1,35 +1,36 @@
 *{
     box-sizing: border-box;
     overflow: hidden;
+    overflow-y: visible;
 }
 header{
     background-color: rgb(43, 205, 192);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 4em;
+    padding: 2em 0;
     height: 190%;
     width: 110%;
     overflow: hidden;
     color: whitesmoke;
     font-family: 'Merriweather', serif;
     font-size: 180%;
-    padding-left: 0em;
     text-align: center;
     justify-content: center;
-    animation-name: bounce;
 
 }
 main{
     display: flex;
+    flex-direction: column;
     align-content: center;
     background-color: black;
-    margin: -1%;
-   
+    margin: 0;
+    height: 100%;
+    color: white;
+    padding: 5%;
+   padding-top: 1%;
 }
-.titles{
-    width: 20%;
-    margin: 5% 10%;
-    color: whitesmoke;
+.paragraph{
+   margin: 10%;
 }
 h1{
     font-family: 'Merriweather', serif;
@@ -42,13 +43,6 @@ h3{
     font-size: 100%;
     text-align: center;
 }
-
-.a {
-    border-top: 30px solid rgb(51, 168, 222)
-}
-.b {
-    border-top: 30px solid rgb(244, 103, 49)
-}
-.c {
-    border-top: 30px solid rgb(43, 205, 192)
+iframe{
+    margin: 5% 30%;
 }

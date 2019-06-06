@@ -13,23 +13,32 @@ header{
     color: whitesmoke;
     font-family: 'Merriweather', serif;
     font-size: 180%;
-    padding-left: 0em;
+    padding-left: .25em;
     text-align: center;
     justify-content: center;
-    animation-name: bounce;
+    font-size: 215%;
+    font-weight: 700;
 
 }
 main{
     display: flex;
     align-content: center;
     background-color: black;
-    margin: -1%;
-   
-}
-.titles{
-    width: 20%;
-    margin: 5% 10%;
     color: whitesmoke;
+}
+   
+.articles{
+    width: 22%;
+    margin: 5% 5%;
+    color: whitesmoke;
+}
+a{
+    color: whitesmoke;
+    transition: .5s;
+}
+a:hover{
+    
+    color: teal;
 }
 h1{
     font-family: 'Merriweather', serif;
@@ -41,14 +50,4 @@ h3{
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
     text-align: center;
-}
-
-.a {
-    border-top: 30px solid rgb(51, 168, 222)
-}
-.b {
-    border-top: 30px solid rgb(244, 103, 49)
-}
-.c {
-    border-top: 30px solid rgb(43, 205, 192)
 }
