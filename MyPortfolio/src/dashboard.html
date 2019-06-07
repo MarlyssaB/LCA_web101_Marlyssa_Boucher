@@ -37,10 +37,17 @@
             </div>
      <main>
          <h2>To Do:</h2>
-         <li>Make a to do list</li>
-         <li>Finish the dashboard</li>
-         <li>6:30 - Dinner with me</li>
-        <p class="newToDo"> What else? <input></input>
+         <ul>
+          <li>Make a to do list</li>
+          <li>Finish the dashboard</li>
+          <li>6:30 - Dinner with me</li>
+        </ul>
+        <form id="newItemForm">
+          <input type="text" id="itemField" placeholder="I need to..">
+          <input type="submit" id="add" value="add">
+        </form>
+        <script src="https://code.jquery.com/jquery-1.12.3.js" integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous"></script>
+  <script src="./dashJava.js"></script>
      </main>
      <div id="clock">
         <h1>12:43 PM</h1> 
