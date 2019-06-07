@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(lime,limegreen,lightgreen);
+}
+
+ header{
+     color: whitesmoke;
+     font-size: 200%;
+     padding: 2%;
+     text-align: center;
+ }
+ #gameBoard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0% 30%;
+ }
+.square{
+    background-color: whitesmoke;
+    border: 1px dashed rebeccapurple;
+    width: 200px;
+    height: 200px;
+    font-size: 150px;
+    text-align: center;
+    padding: 1%;
+}
+.square:hover{
+    background-color: lightgrey;
+}
+
+button{
+    width: 10%;
+    height: 40%;
+}
+
+@media (max-width:685px){
+    h1{
+        padding: 1%;
+    }
+    .square{
+        width: 75px;
+        height: 75px;
+        font-size: 50px;
+        padding: 1%;
+    }
+    #gameBoard{
+        margin: 0% 18%;
+     }
+
+}
