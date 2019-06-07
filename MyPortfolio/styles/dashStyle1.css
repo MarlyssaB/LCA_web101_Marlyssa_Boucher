@@ -94,8 +94,11 @@ main{
     text-align: center;
 }
 
-.newToDo{
+#itemField, #add{
     font-size: 120%;
+}
+#itemField{
+  margin-left: 4%;
 }
 h1{ 
     font-size: 300%;
