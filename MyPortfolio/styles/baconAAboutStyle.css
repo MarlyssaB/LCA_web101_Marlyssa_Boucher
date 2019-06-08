@@ -45,4 +45,32 @@ h3{
 }
 iframe{
     margin: 5% 30%;
+    width: 560px;
+    height: 315px; 
 }
+
+@media (max-width: 680px) { 
+    header{
+        background-color: rgb(51, 168, 222);
+        padding: 1em;
+    }
+   
+    main{
+        background-color: white;
+        color:black;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        margin: -1%;
+       
+    }
+    .paragraph{
+        margin: 2%;
+    }
+    iframe{
+        margin: 1%;
+        width: 100%;
+    }
+
+
+ }

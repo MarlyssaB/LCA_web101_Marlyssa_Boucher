@@ -6,7 +6,7 @@ header{
     background-color: rgb(43, 205, 192);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 4em;
+    padding: 3em;
     height: 190%;
     width: 110%;
     overflow: hidden;
@@ -51,3 +51,33 @@ h3{
     font-size: 100%;
     text-align: center;
 }
+@media (max-width: 680px) { 
+    header{
+        background-color: rgb(51, 168, 222);
+        padding: 1em;
+    }
+   
+    main{
+        background-color: white;
+        color: black;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        margin: -1%;
+       
+    }
+    h2{
+        margin: 1%;
+    }
+    
+    .articles{
+        width: 50%;
+        margin: 5% 25%;
+        color: black;
+    }
+    a{
+        color: black;
+    }
+
+
+ }

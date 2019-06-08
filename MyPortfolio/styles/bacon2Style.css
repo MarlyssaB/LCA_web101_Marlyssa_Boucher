@@ -26,3 +26,10 @@ main{
     color: sienna;
     padding: 5%;
 }
+@media (max-width: 680px) { 
+   
+    p{
+        font-size: 85%;
+    }
+
+ }

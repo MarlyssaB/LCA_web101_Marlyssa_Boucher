@@ -90,12 +90,15 @@ h3{
         margin: -1%;
        
     }
+    h2{
+        margin: 1%;
+    }
     #icons{
         padding-left: 0;
     }
     .fa-facebook-square, .fa-instagram{
-        margin: .7%;
-        padding: .7%;
+        margin: 1%;
+        padding: 1%;
         margin-top: -1%;
     }
     .titles{

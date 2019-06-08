@@ -29,3 +29,10 @@ main{
     color: darkblue;
     padding: 5%;
 }
+@media (max-width: 680px) { 
+   
+    p{
+        font-size: 
+    }
+
+ }
