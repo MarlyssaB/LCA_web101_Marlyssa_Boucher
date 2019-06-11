@@ -1,0 +1,61 @@
+.wrapper {
+    margin-left: 40px;
+    padding: 100px;
+  
+  }
+  
+  h2 {
+    font: 1.8em/1 Georgia, "Times New Roman", Times, serif;
+    font-weight: 100;
+    font-style: italic;
+    color: #4ea5cd;
+  }
+  
+  .droppable {
+    height: 200px;
+    width: 210px;      
+    float: left;
+    position: relative;
+    margin-right: 40px;
+  
+    border: 1px solid;
+    border-color: #4ea5cd;
+  }
+  
+  .draggable {
+    height: 25px;
+    border-radius: 10px;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .disk1 {
+    background-color: lavender;
+    width:200px;
+  }
+  
+  .disk2 {
+    background-color: plum;
+    width:160px;
+  }
+  
+  .disk3 {
+    background-color: purple;
+    width:120px;
+  }
+  
+  .content{
+    width: 210px;
+    position: absolute;
+    bottom: 0px;
+  }
+  
+  .bar {
+      width : 20px;
+      height: 150px;
+      background-color: #787878;
+      margin: 0 94px;
+      position: absolute;
+      bottom : 0px; 
+      z-index: -999999;   
+  }
