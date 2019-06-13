@@ -45,3 +45,13 @@ body {
   .comments{
     font-weight: bold;
   }
+
+  @media (max-width: 650px){
+    body{
+      background-image: none;
+      background-color: pink;
+    }
+    header{
+      color: black;
+    }
+  }
