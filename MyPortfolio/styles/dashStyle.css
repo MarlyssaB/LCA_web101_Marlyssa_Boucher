@@ -102,6 +102,7 @@ li{
     font-size: 130%;
 }
 
+
 @media (max-width:650px){
     #clock{
         font-size: 75%;
