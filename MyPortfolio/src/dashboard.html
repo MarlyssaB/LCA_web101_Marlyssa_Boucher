@@ -13,11 +13,27 @@
     <header>
         <h1>Hello, (insert name here)!</h1>
         <h3>My, don't you look gorgeous today</h3>
-      <a href="https://marlyssab.github.io/LCA_web101_Marlyssa_Boucher/MyPortfolio/src/portfolio.html">Portfolio</a>
+        <div id="location">
+            <button onclick="getLocation()">Current Longitude & Latitude</button>
+            <p id="my-coordinates"></p>
+            <script>
+             var myLocation = document.getElementById("my-coordinates");
+            function getLocation() {
+              if (navigator.geolocation) {
+                 navigator.geolocation.getCurrentPosition(displayPosition);
+           } else {
+                myLocation.innerHTML = "Not Available";
+           } 
+        }
+            function displayPosition(position) {
+            myLocation.innerHTML = "Longitude: " + position.coords.longitude + " Latitude: " + position.coords.latitude;
+        }
+            </script>
+            <div class="spinner"></div>
+          </div>
     </header>
             <div class="calculator">
               <div class="calculator__display">0</div>
-        
               <div class="calculator__keys">
                 <button class="key--operator" data-action="add">+</button>
                 <button class="key--operator" data-action="subtract">-</button>
@@ -37,6 +53,7 @@
                 <button data-action="clear">AC</button>
                 <button class="key--equal" data-action="calculate">=</button>
               </div>
+              <div class="spinner"></div>
             </div>
      <main>
          <h2>To Do:</h2>
@@ -48,26 +65,30 @@
         <form id="newItemForm">
           <input type="text" id="itemField" placeholder="I need to..">
           <input type="submit" id="add" value="add">
+          <script>
+            $(function() {
+
+              let $list = $('ul');
+              let $newItemForm = $('#newItemForm');
+
+              $newItemForm.on('submit', function(e) {
+                  e.preventDefault();
+                  let text = $('input[type="text"]').val();
+                  $list.append(`<li>${text}</li>`);
+                  $('input[type="text"]').val('');
+                });
+
+$list.on('click', 'li', function() {
+  let $this = $(this);
+  $this.remove();
+});
+});
+
+          </script>
         </form>
         <script src="https://code.jquery.com/jquery-1.12.3.js" integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous"></script>
-</main>
- <div>
-      <button onclick="getLocation()">Current Longitude & Latitude</button>
-      <p id="my-coordinates"></p>
-      <script>
-       var myLocation = document.getElementById("my-coordinates");
-      function getLocation() {
-        if (navigator.geolocation) {
-           navigator.geolocation.getCurrentPosition(displayPosition);
-     } else {
-          myLocation.innerHTML = "Not Available";
-     } 
-  }
-      function displayPosition(position) {
-      myLocation.innerHTML = "Longitude: " + position.coords.longitude + " Latitude: " + position.coords.latitude;
-  }
-      </script>
-    </div>
+
+      </main>
      <div id="clock">
         <h1>12:43 PM</h1> 
      </div>
@@ -77,3 +98,31 @@
          <p><h3>2019</h3></p>
      </div>
 </body>
+<footer>
+    <div id="board">
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column">
+          <div class="disc red"></div>
+        </div>
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+      </div>
+      <script>
+
+$(document).ready(function() {
+  let color = 'black';
+  $('.column').click(function() {
+    $(this).prepend(`<div class="disc ${color}"></div>`);
+    if (color === 'red') {
+      color = 'black';
+    } else {
+      color = 'red';
+    }
+  });
+});
+      </script>
+</footer>
+</html>
